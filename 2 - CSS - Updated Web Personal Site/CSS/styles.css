@@ -1,0 +1,182 @@
+/*****************************TAG SELECTORS*****************************/
+body {
+  /*Formatando a margen e centralizando o texto e incluindo a fonte*/
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 4rem;
+  /**16px = 100% = 1em**/
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  padding: 10PX;
+
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #11999E
+}
+
+p{
+  line-height: 2;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999e;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/*****************************CLASS************************************/
+/*SEMPRE QUE USAR UMA CLASSE USAR O SINAL DE . ANTES DO NOME*/
+.top-container {
+  background-color: #EAF6F6;
+  /*A função padding acrescenta um espaço entre a margen do site de acordo com a direção*/
+  padding-top: 100px;
+}
+
+/**
+.middle-container {
+  /**Modelo de como inserir uma caixa no site
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  }
+  **/
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.aweb {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.top-cloud {
+  /*A função position absolute é usado para posicionar o objeto conforme
+ necessidade. definição:
+o elemento com Position Absolute se utiliza do ponto superior esquerdo de
+ outros elementos. Estes elementos são os parentes dele do elemento
+ com position absolute. Mais especificamente o pai..*/
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.Images_Paulo {
+  border-radius: 100%;
+}
+
+/***Editando o layout do texto***/
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+/***Editando o tamanho da imagem***/
+.skill_class {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+
+
+}
+
+/***Editando o tamanho da imagem***/
+.musculoso {
+  width: 20%;
+  float: right;
+
+
+
+}
+
+.texto_alinhamento{
+  /***Aqui poderia ter sido usado o elemento width: 30% e a Margin: auto***/
+  text-align: center;
+  margin: auto 30% auto 30%
+}
+
+.middle-container{
+  line-height: 2;
+  font-weight:bold;
+  margin:100px 0;
+}
+
+.contact-me{
+    /***Aqui poderia ter sido usado o elemento width: 40% e a Margin: 40px auto 60px***/
+  text-align: center;
+
+  margin: auto 30% auto 30%
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/***Botao CSS***/
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
